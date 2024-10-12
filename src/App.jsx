@@ -1,4 +1,4 @@
-import { Section, Container, Header, Text } from 'components';
+import { Section, Container, Header, Text, Form } from 'components';
 
 export const App = () => {
   return (
@@ -7,6 +7,7 @@ export const App = () => {
       <Section>
         <Container>
           <Text textAlign="center">Create your first todo😉</Text>
+          <Form />
         </Container>
       </Section>
     </>
